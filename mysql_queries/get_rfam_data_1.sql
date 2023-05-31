@@ -19,7 +19,7 @@ WHERE
 	AND is_significant = 1  -- exclude low-scoring matches from the same clan       -- 3 records of 7
 ORDER BY
 	fr.rfam_acc, fr.rfamseq_acc, flr.order_added
-LIMIT 	2, 1;
+LIMIT 	2;
 
 /**OUTPUT:
 
